@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="./css/style.css">
+	<title></title>
+</head>
+<body>
+    <button class="back displayNone" id="backButton1"><div class="arrow-1"><div></div></div></button>
+    <button class="back displayNone" id="backButton2"><div class="arrow-1"><div></div></div></button>
+    <div class="content">
+    <main class="content" id="content">
+        <div class="mainBack" id="mainBackground"></div>
+        <h1 class="mainTitle" id="createStyle">Create your own style</h1>
+        <div class="displayNone" id="loginForm">
+            <div class="registrationTitle">Log In</div> 
+            <form name ="login">
+                <div class="inputWrapper " id="userEmail" >
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                        <rect width="24" height="24" fill="#D2D1D1"/>
+                        <circle cx="12" cy="12" r="9" fill="#51200C"/>
+                        <path xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd" d="M6 9.60991L11.9204 12.5518L11.9349 12.5779L11.9528 12.5679L11.9814 12.5821L12.0021 12.5405L18 9.20723V15.25C18 15.6642 17.6642 16 17.25 16H6.75C6.33579 16 6 15.6642 6 15.25V9.60991ZM6.03843 8.51235C6.13782 8.21462 6.41885 8 6.75 8H17.25C17.4458 8 17.6241 8.07502 17.7576 8.19789L11.9268 11.4383L6.03843 8.51235Z" fill="#FCEADC"/>
+                    </svg>
+                    <input type="email" name="email" class="formInput" placeholder="Email" >
+                </div>
+                <div class="inputWrapper " id="userPassword" >
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                        <rect width="24" height="24" fill="#D2D1D1"/>
+                        <circle cx="12" cy="12" r="9" fill="#51200C"/>
+                        <rect x="9.5" y="5.5" width="5" height="6" rx="2" stroke="#FCEADC"/>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M7.75 10C7.33579 10 7 10.3358 7 10.75V16.25C7 16.6642 7.33579 17 7.75 17H16.25C16.6642 17 17 16.6642 17 16.25V10.75C17 10.3358 16.6642 10 16.25 10H7.75ZM13.5 13.25C13.5 13.8547 13.0706 14.3592 12.5 14.475V15.75C12.5 15.8881 12.3881 16 12.25 16C12.1119 16 12 15.8881 12 15.75V14.475C11.4294 14.3592 11 13.8547 11 13.25C11 12.5596 11.5596 12 12.25 12C12.9404 12 13.5 12.5596 13.5 13.25Z" fill="#FCEADC"/>
+                    </svg>
+                <input type="password" name="password" class="formInput" placeholder="Password">
+                </div>
+                <div class="passwordChangeWrapper ">
+                <a class="passwordChangeLink" href="">Forgot Password?</a>
+                </div> <button type ="submit" class="getStarted logIn">Log in</button>
+            </form>
+        </div> 
+         <div class="registrationTitle displayNone" id="signUpTitle">Sign up</div>
+        <div class="signUpFormsWrapper displayNone" id="signUpForms">
+        <div class="signUpForms">
+            <div class="inputWrapper" >
+           <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect width="24" height="24" transform="translate(0 0.837402)" fill="#D2D1D1"/>
+            <circle cx="12" cy="13.8374" r="9" fill="#51200C"/>
+            <circle cx="12" cy="10.3374" r="2.5" fill="#FCEADC"/>
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M15.7846 19.8374C16.5534 19.8374 17.2936 19.4014 17.4287 18.6445C17.4756 18.3818 17.5 18.1122 17.5 17.8374C17.5 15.076 15.0376 12.8374 12 12.8374C8.96243 12.8374 6.5 15.076 6.5 17.8374C6.5 18.1122 6.52438 18.3818 6.57128 18.6445C6.7064 19.4014 7.44661 19.8374 8.21542 19.8374H15.7846Z" fill="#FCEADC"/>
+            </svg>
+            <input id="email" name="email" class="formInput" placeholder="Username" >
+        </div>
+                <div class="inputWrapper" >
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                <rect width="24" height="24" fill="#D2D1D1"/>
+                <circle cx="12" cy="12" r="9" fill="#51200C"/>
+                <path xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd" d="M6 9.60991L11.9204 12.5518L11.9349 12.5779L11.9528 12.5679L11.9814 12.5821L12.0021 12.5405L18 9.20723V15.25C18 15.6642 17.6642 16 17.25 16H6.75C6.33579 16 6 15.6642 6 15.25V9.60991ZM6.03843 8.51235C6.13782 8.21462 6.41885 8 6.75 8H17.25C17.4458 8 17.6241 8.07502 17.7576 8.19789L11.9268 11.4383L6.03843 8.51235Z" fill="#FCEADC"/>
+            </svg>
+            <input type="email" id="email" name="email" class="formInput" placeholder="Email" >
+        </div>
+                <div class="inputWrapper" >
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                <rect width="24" height="24" fill="#D2D1D1"/>
+                <circle cx="12" cy="12" r="9" fill="#51200C"/>
+                <rect x="9.5" y="5.5" width="5" height="6" rx="2" stroke="#FCEADC"/>
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M7.75 10C7.33579 10 7 10.3358 7 10.75V16.25C7 16.6642 7.33579 17 7.75 17H16.25C16.6642 17 17 16.6642 17 16.25V10.75C17 10.3358 16.6642 10 16.25 10H7.75ZM13.5 13.25C13.5 13.8547 13.0706 14.3592 12.5 14.475V15.75C12.5 15.8881 12.3881 16 12.25 16C12.1119 16 12 15.8881 12 15.75V14.475C11.4294 14.3592 11 13.8547 11 13.25C11 12.5596 11.5596 12 12.25 12C12.9404 12 13.5 12.5596 13.5 13.25Z" fill="#FCEADC"/>
+            </svg>
+            <input type="email" id="email" name="email" class="formInput" placeholder="Create a password" >
+        </div>
+                <div class="inputWrapper" >
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                <rect width="24" height="24" fill="#D2D1D1"/>
+                <circle cx="12" cy="12" r="9" fill="#51200C"/>
+                <rect x="9.5" y="5.5" width="5" height="6" rx="2" stroke="#FCEADC"/>
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M7.75 10C7.33579 10 7 10.3358 7 10.75V16.25C7 16.6642 7.33579 17 7.75 17H16.25C16.6642 17 17 16.6642 17 16.25V10.75C17 10.3358 16.6642 10 16.25 10H7.75ZM13.5 13.25C13.5 13.8547 13.0706 14.3592 12.5 14.475V15.75C12.5 15.8881 12.3881 16 12.25 16C12.1119 16 12 15.8881 12 15.75V14.475C11.4294 14.3592 11 13.8547 11 13.25C11 12.5596 11.5596 12 12.25 12C12.9404 12 13.5 12.5596 13.5 13.25Z" fill="#FCEADC"/>
+            </svg>
+            <input type="email" id="email" name="email" class="formInput" placeholder="Confirm a password " >
+        </div>           
+        </div>
+        <button class="getStarted">Join</button> 
+        </div>
+    </main>
+    <button class="getStarted" id="getStartedButton">Get Started</button>
+    </div>
+     <div class="footer displayNone" id="footer"><span class="text">Don’t have an account yet?</span><a class="signUpLink" id="signUpLink"href="">Sign Up</a></div>
+    <script src="./js/script.js"></script>
+</body>
+</html>
