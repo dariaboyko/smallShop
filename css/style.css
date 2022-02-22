@@ -30,6 +30,7 @@ footer, header, hgroup, menu, nav, section {
   display: block;
 }
 body {
+	background-color: #EFEAEA;
   line-height: 1;
 }
 blockquote, q {
@@ -256,13 +257,11 @@ text-align: left;
 }
 .logWrapper{
 	background-color: #EFEAEA;
-	height: 100vh;
 	padding: 30px 0 0 0;
 }
 .userContent{
-	margin-top: ;
 	background-color: #EFEAEA;
-		width: 100vw;
+	width: 100vw;
 	padding: 0 35px;
 }
 .header{
@@ -345,17 +344,18 @@ text-align: left;
 	margin: 0 0 0 112px;
 }
 .footerLogIn{
-	position: absolute;
 	bottom: 0;
 	height: 115px;
 }
 .footerLogIn img{
-	width: 100vw;
+	width: 100%;
 	position: absolute;
 	bottom: 0;
 }
 .shoppingCart{
-	margin: 0 0 55px 78vw;
+	position: absolute;
+	right: 45px;
+	bottom:55px ;
 	background-image: url(../img/shoppingCart.svg);
 	background-color: transparent;
 	background-size: cover;
