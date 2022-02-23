@@ -30,7 +30,6 @@ footer, header, hgroup, menu, nav, section {
   display: block;
 }
 body {
-	height: 100%;
   line-height: 1;
 }
 blockquote, q {
@@ -48,7 +47,7 @@ table {
 .content{
 	margin: 0 auto;
 	max-width: 420px;
-	max-height: 1000px;
+	max-height: 900px;
 	text-align: center;
 }
 .mainBack{
@@ -345,15 +344,15 @@ text-align: left;
 .footerLogIn{
 	height: 115px;
 	position: absolute;
-	bottom:0;
+	bottom: 0;
 }
 .footerLogIn img{
 	width: 100vw;
 	height: 104px;
-	position: absolute;
 	margin: 0;
 	bottom: 0;
 	left: 0;
+	position: absolute;
 }
 .shoppingCart{
 	position: absolute;
@@ -368,6 +367,7 @@ text-align: left;
 
 }
 .homeButton{
+	position: absolute;
 	background-image: url(../img/home.svg);
 	background-color: transparent;
 	background-size: cover;
@@ -376,20 +376,21 @@ text-align: left;
 	height: 46px;
 	margin: 60px 0 20px 0;
 	left: 41px;
+	bottom: 15px;
 	z-index: 2;
-	position: absolute;
 
 }
 .wishListButton{
 	background-image: url(../img/wishList.svg);
 	background-color: transparent;
 	background-size: cover;
-	position: absolute;
 	border: 0;
 	width: 46px;
 	height: 46px;
 	margin: 60px 0 20px 120px;
 	z-index: 2;
+	position: absolute;
+	bottom: 15px;
 
 }
 .settingsHeader .logo{
@@ -446,6 +447,22 @@ color: #51200C;
 	display: flex;
 	flex-direction: row;
 	align-items: center;
+}
+.adminElement{
+	height: 80px;
+	text-align: left;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 22px;
+	letter-spacing: 0.005em;
+    border-bottom: 1px solid black;
+	color: rgba(0, 0, 0, 0.85);
+	margin: 20px 0;
+	padding: 10px 0;
+}
+#users{
 }
 .settingElements{
 	border-top: 1px solid black ;
@@ -594,6 +611,15 @@ letter-spacing: 0.005em;
 margin: 10px auto;
 color: rgba(0, 0, 0, 0.85);
 }
+.changeEmail .profileElement{
+	height: 75px;
+}
+.changeEmail .formInput{
+	margin: 0;
+}
+.changeEmail .settingTitle{
+	margin: 0;
+}
 .displayNone{
 	display: none;
 }
@@ -608,8 +634,8 @@ and (min-width: 420px)
 and (max-width: 100vw){
 .content{
 	width: 100%;
-    max-width: 100vw;
-	max-height: 100vh;
+    max-width: 100%;
+	max-height: 100%;
 }
 }
 /*@media only screen

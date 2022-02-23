@@ -8,6 +8,21 @@ const USERS = [{
     id:2,
     role: 'user',
     email:'daria@gmail.com',
+    name: 'Daria Boyko',
+    password:'12345'
+},
+{
+    id:3,
+    role: 'user',
+    email:'katya@gmail.com',
+    name: 'Katerina Petrova',
+    password:'12345'
+},
+{
+    id:4,
+    role: 'user',
+    email:'masha@gmail.com',
+    name: 'Maria Kuznali',
     password:'12345'
 }]
 const getStartedButton = document.querySelector("#getStartedButton");
